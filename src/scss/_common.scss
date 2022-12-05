@@ -1,0 +1,72 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  background: #EAEFFD;
+  color: #515561;
+}
+
+input,
+textarea{
+  background: #EAEFFD;
+}
+
+textarea{
+  height: 160px!important;
+}
+
+.container{
+  max-width: 1286px!important;
+}
+
+
+.text-xs{
+  //font-size: 10px!important;
+  //line-height: 12px!important;
+}
+
+.bg-blue-500{
+  background: #6170FF;
+}
+
+
+.text-blue-400{
+  color: #6170FF!important;
+}
+
+
+button{
+  transition: .1s;
+  &:active{
+    transform: scale(.95);
+  }
+}
+
+
+.container{
+  width: 100%!important;
+  max-width: 100%!important;
+  min-width: 100%!important;
+}
+
+input, textarea{
+  outline: none!important;
+}
+.filter{
+  background: url("/src/img/design/bg-blue.svg") top;
+  background-size: cover;
+}
+
+.filter-color{
+  background: url("/src/img/design/bg-color.svg") top;
+  background-size: cover;
+
+}
+
+.bnr{
+  width: 100%!important;
+  max-width: 728px!important;
+  height: 90px!important;
+  line-height: 90px!important;
+}
+
+
+

@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'helpers/sticky-footer';
+@import 'common';
+
+
+.city-lists {
+    display: none;
+}
+.city-lists.drop {
+    display: flex;
+}
+.intro-card.active p{
+    color: #000;
+}
+.intro-card.active {
+    background-color: #fff;
+}
+.intro-card.active svg{
+    fill: #6170FF;
+}
